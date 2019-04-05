@@ -69,10 +69,6 @@ This guide allows you to run single-node Kubernetes cluster directly on your loc
 
 - [Docker for mac documentation reference](https://docs.docker.com/docker-for-mac/networking/#there-is-no-docker0-bridge-on-macos)
 
-### I don't have miquido-interal-context anymore.
-
-- Redo "Getting in" tutorial.
-
 ### I've messed up something and kubectl won't response.
 
 - Go to ![Docker Deamon icon](images/docker-deamon.png) -> Preferences -> Reset Kubernetes cluster. If Kubernetes won't restart in 5 minutes, you've to "Reset disk image", so every image, container and volume you've created will be lost. 
